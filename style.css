@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* ----共通部分----*/
+html{
+        font-size: 100%;
+}
+body{
+        background-color:#f1e2be;
+        font-family: "Yu Gohtic Medium","遊ゴシック Medium",Yugothic, "遊ゴシック体","ヒラキノ角ゴ Pro W3",sans-serif;
+        line-height: 1.7;
+        color: #432;
+}
+a{
+        text-decoration: none;
+}
+img{
+        max-width: 100%;
+}
+/*----header----*/
+.page-header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #1728ef30;
+        border-radius: 5px;
+}
+.main-nav li{
+        display: flex;
+        list-style-type: none;
+        margin-right: 5%;
+}
+
+
+h1{
+        font-size:20px;
+        margin-top: 14px;
+        margin-left:42px;
+
+}
+.liner{
+        border-left: thick solid red;
+        padding-left: 10px;
+}
+.line{
+        
+}
+
+.main.nav{
+        display: flex;
+        font-size: 1.25rem;
+        list-style: none;
+        text-transform: uppercase;
+}
+.main-nav li {
+        margin-left: 36px;       
+}
+.main-nav a{
+        color: #432;
+}
+.main-nav a:hover{
+        color: #0bd;
+}
+.map-reserveUrl-wrapper{
+        display:flex;
+}
+
+#map {
+        width:55%;
+        height:450px;
+        margin-right: 5%;
+        margin-left : 5%;
+        border-radius: 5% 5%;
+        /*animation:3s linear infinite rotation1;*/
+}
+.reserveUrl .frame{
+       
+        height:450px;
+        width: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+}
+
+.form{
+        background-color: #f1e2be;
+        border-radius:  1em;
+        width:130px;
+        height:25px;
+        padding-left:5%;
+}
+.form:hover{
+        background: #ef9c17;
+}
+.site{
+        visibility:hidden;
+}
+
+        
+
+/*@keyframes rotation1{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
+}
+*/

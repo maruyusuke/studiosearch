@@ -58,6 +58,20 @@ h1{
 .main-nav a:hover{
         color: #0bd;
 }
+/*----home----*/
+.form{
+        background-color: #f1e2be;
+        border-radius:  1em;
+        width:130px;
+        height:25px;
+        padding-left:5%;
+}
+select:hover{
+        background-color: #ef9c17;
+}
+.site{
+        visibility:hidden;
+}
 .map-reserveUrl-wrapper{
         display:flex;
 }
@@ -78,19 +92,7 @@ h1{
         margin-left: 5%;
 }
 
-.form{
-        background-color: #f1e2be;
-        border-radius:  1em;
-        width:130px;
-        height:25px;
-        padding-left:5%;
-}
-.form:hover{
-        background: #ef9c17;
-}
-.site{
-        visibility:hidden;
-}
+
 
         
 
